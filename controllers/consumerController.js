@@ -217,7 +217,7 @@ exports.forgotPassword = async(req, res) => {
             html: `
                 <p>Hello ${user.firstName || ''},</p>
                 <p>You recently requested to reset your password. Please click the link below to reset it:</p>
-                <a href="http://localhost:5173/reset-password/${token}" style="background-color:#40476D; color:white; width:120px; border-radius:3px; border:none; padding:10px; text-decoration:none;">Reset Password</a>
+                <a href="https://cleaningequipment.vercel.app/reset-password/${token}" style="background-color:#40476D; color:white; width:120px; border-radius:3px; border:none; padding:10px; text-decoration:none;">Reset Password</a>
                 <p>This link will expire in 15 minutes. If you did not request a password reset, please ignore this email or contact our support team immediately.</p>
                 <p>Thank you,<br>Your Support Team</p>
             `,
