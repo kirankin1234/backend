@@ -26,8 +26,8 @@ exports.addContact = async(req, res) => {
             port: 587, // or 465 if using SSL
             secure: false, // true for 465, false for other ports
             auth: {
-                user: "gayatrirajguru2002@gmail.com", // SMTP email
-                pass: "wnaamjfxlmktfizc" // SMTP password
+                user: "kiran899964@gmail.com", // SMTP email
+                pass: "djjy kbog dxqq npyx" // SMTP password
             }
         });
 
